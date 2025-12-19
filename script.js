@@ -14,6 +14,7 @@ function checkNaughtyOrNice() {
     const q2 =  document.getElementById('q2').value
     const q3 =  document.getElementById('q3').value
     const q4 =  document.getElementById('q4').value
+    const q5 =  document.getElementById('q5').value
 
     const score = getPoints(q1) + getPoints(q2) + getPoints(q3) + getPoints(q4) + getPoints(q5)
 
