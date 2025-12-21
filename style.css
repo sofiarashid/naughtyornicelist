@@ -9,17 +9,21 @@ body {
 }
 
 .button {
-    padding: 10px 20px;
-    background-color: #144D2A;
-    color: #F0F0F0;
-    border: none;
+    padding: 15px;
+    margin: 10px;
+    background-color: #501919;
+    color: #F8F6F6;
+    border: 2px #F8F6F6;
     border-radius: 5px;
     cursor: pointer;
     font-size: 16px;
+    width: 90%;
+    box-sizing: border-box;
+    
 }
 .button:hover {
-    background-color: #F0F0F0;
-    color: #144D2A;
+    background-color: #F8F6F6;
+    color: #501919;
 }
 
 
@@ -59,8 +63,8 @@ body {
 
 .snow:nth-child(1) {
     left: 7%;
-    width: 60px;
-    height: 60px;
+    width: 20px;
+    height: 20px;
     animation-delay: 0s;
     animation-duration: 6s;
 }
@@ -74,8 +78,8 @@ body {
 
 .snow:nth-child(3) {
     left: 21%;
-    width: 40px;
-    height: 40px;
+    width: 10px;
+    height: 10px;
     animation-delay: 2s;
 }
 
@@ -102,22 +106,22 @@ body {
 
 .snow:nth-child(7) {
     left: 49%;
-    width: 45px;
-    height: 45px;
+    width: 20px;
+    height: 20px;
     animation-delay: 0s;
     animation-duration: 0s;
 }
 
 .snow:nth-child(8) {
-    width: 60px;
-    height: 60px;
+    width: 30px;
+    height: 30px;
     animation-delay: 1s;
 }
 
 .snow:nth-child(9) {
     left: 63%;
-    width: 30px;
-    height: 30px;
+    width: 20px;
+    height: 20px;
     animation-delay: 2s;
 }
 
@@ -144,8 +148,8 @@ body {
 
 .snow:nth-child(13) {
     left: 91%;
-    width: 50px;
-    height: 50px;
+    width: 10px;
+    height: 10px;
     animation-delay: 0s;
 }
 
