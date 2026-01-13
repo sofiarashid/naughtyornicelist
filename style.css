@@ -1,15 +1,36 @@
 body {
-    background-color: #c2c4c6;
+    background: linear-gradient(#CFD6DB, #EEF1F4);
+    min-height: 100vh;
+    padding: 25px;
+}
+.card {
+    border-radius: 20px;
+    border: 0px;
+    background: transparent;
 }
 .card-body {
     background-color: #501919;
     color: white;
-    border-radius:20px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.25);
     font-family: "ltc-goudy-heavyface-pro", sans-serif;
     font-weight: 400;
     font-style: normal;
     font-size: 15px;
+    text-align: center;
+}
+.card-title {
+    font-family: "ff-scala-jewel-crystal", sans-serif;
+    font-weight: 400;
+    font-size: 45px;
+    margin-bottom: 10px;
+    font-style: normal;
+}
+.card-text {
+    font-family: "ff-scala-jewel-crystal", sans-serif;
+    font-weight: 400;
+    font-size: 25px;
+    font-style: normal;
 }
 
 .checkmystatusbutton {
@@ -21,7 +42,7 @@ body {
     border-radius: 5px;
     cursor: pointer;
     font-size: 16px;
-    width: 90%;
+    width: 100%;
     box-sizing: border-box;
     font-family: "ff-scala-jewel-crystal", sans-serif;
     font-weight: 400;
@@ -32,29 +53,17 @@ body {
 .checkmystatusbutton:hover {
     background-color: #F8F6F6;
     color: #501919;
+    transform:scale(1.2);
 
 }
-.h4 {
-    font-family: "ff-scala-jewel-crystal", sans-serif;
-    font-weight: 400;
-    font-size: 50px;
-    font-style: normal;
-}
-.h3 {
-    font-family: "ff-scala-jewel-crystal", sans-serif;
-    font-weight: 400;
-    font-size: 40px;
-    font-style: normal;
-}
-
 .snow-wrapper {
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
     pointer-events: none;
-    z-index: 9999;
+    z-index: 999;
 }
 
 .snow {
@@ -63,7 +72,6 @@ body {
     background: #fff;
     border-radius: 50%;
     animation: fallingSnow 3s linear infinite;
-
     position: absolute;
     left: 0;
     top: -40px;
@@ -79,101 +87,21 @@ body {
     }
 }
 
-.snow:nth-child(1) {
-    left: 7%;
-    width: 60px;
-    height: 60px;
+.snow:nth-child(odd) {
+    width: 6px;
+    height: 6px;
     animation-delay: 0s;
-    animation-duration: 6s;
+    animation-duration: 10s;
 }
 
-.snow:nth-child(2) {
-    left: 14%;
-    width: 30px;
-    height: 30px;
-    animation-delay: 1s;
-}
-
-.snow:nth-child(3) {
-    left: 21%;
-    width: 40px;
-    height: 40px;
-    animation-delay: 2s;
-}
-
-.snow:nth-child(4) {
-    left: 28%;
+.snow:nth-child(even) {
     width: 10px;
     height: 10px;
-    animation-delay: 3s;
+    animation-delay: 7s;
 }
 
-.snow:nth-child(5) {
-    left: 35%;
-    width: 20px;
-    height: 20px;
-    animation-delay: 4s;
-}
-
-.snow:nth-child(6) {
-    left: 42%;
-    width: 50px;
-    height: 50px;
-    animation-delay: 2s;
-}
-
-.snow:nth-child(7) {
-    left: 49%;
-    width: 45px;
-    height: 45px;
-    animation-delay: 0s;
-    animation-duration: 0s;
-}
-
-.snow:nth-child(8) {
-    width: 60px;
-    height: 60px;
-    animation-delay: 1s;
-}
-
-.snow:nth-child(9) {
-    left: 63%;
-    width: 30px;
-    height: 30px;
-    animation-delay: 2s;
-}
-
-.snow:nth-child(10) {
-    left: 70%;
-    width: 40px;
-    height: 40px;
-    animation-delay: 3s;
-}
-
-.snow:nth-child(11) {
-    left: 77%;
-    width: 10px;
-    height: 10px;
-    animation-delay: 4s;
-}
-
-.snow:nth-child(12) {
-    left: 84%;
-    width: 20px;
-    height: 20px;
-    animation-delay: 5s;
-}
-
-.snow:nth-child(13) {
-    left: 91%;
-    width: 50px;
-    height: 50px;
-    animation-delay: 0s;
-}
-
-.snow:nth-child(14) {
-    left: 98%;
-    width: 45px;
-    height: 45px;
-    animation-delay: 3s;
+.snow:nth-child(1){
+    left: 8%
+} .snow:nth-child(2){
+    left: 16%;
 }
