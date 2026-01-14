@@ -18,7 +18,7 @@ function checkNaughtyOrNice() {
 
     const score = getPoints(q1) + getPoints(q2) + getPoints(q3) + getPoints(q4) + getPoints(q5)
 
-    if (score > 2.5) {
+    if (score > 2) {
         alert('You are on the NICE list!')
     } else {
         alert('You are on the NAUGHTY list!')
