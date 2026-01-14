@@ -84,52 +84,75 @@ body {
         transform: translateY(100vh);
     }
 }
-
-.snow:nth-child(odd) {
+.snow:nth-child(1){
+    left: 8%;
     width: 6px;
     height: 6px;
     animation-delay: 0s;
-    animation-duration: 10s;
-}
-.snow:nth-child(even) {
-    width: 10px;
-    height: 10px;
-    animation-delay: 5s;
-    animation-duration: 9s;
-}
-.snow:nth-child(1){
-    left: 8%
 }
 .snow:nth-child(2){
     left: 16%;
+    width: 10px;
+    height: 10px;
+    animation-delay: 5s;
 }
 .snow:nth-child(3){
     left: 24%;
+    width: 6px;
+    height: 6px;
+    animation-delay: 0s;
 }
 .snow:nth-child(4){
     left: 32%;
+    width: 10px;
+    height: 10px;
+    animation-delay: 5s;
 }
 .snow:nth-child(5){
     left: 40%;
+    width: 6px;
+    height: 6px;
+    animation-delay: 0s;
 }
 .snow:nth-child(6){
     left: 48%;
+    width: 10px;
+    height: 10px;
+    animation-delay: 5s;
 }
 .snow:nth-child(7){
     left: 56%;
+    width: 6px;
+    height: 6px;
+    animation-delay: 0s;
 }
 .snow:nth-child(8){
     left: 64%;
+    width: 10px;
+    height: 10px;
+    animation-delay: 5s;
 }
 .snow:nth-child(9){
     left: 72%;
+    width: 6px;
+    height: 6px;
+    animation-delay: 0s;
 }
 .snow:nth-child(10){
     left: 80%;
+    width: 10px;
+    height: 10px;
+    animation-delay: 5s;
 }
 .snow:nth-child(11){
     left: 88%;
+    width: 6px;
+    height: 6px;
+    animation-delay: 0s;
 }
 .snow:nth-child(12){
     left: 94%;
+    width: 10px;
+    height: 10px;
+    animation-delay: 5s;
 }
