@@ -5,7 +5,7 @@ function getPoints(value) {
         case 'naughty':
             return -1
         default:
-            return -1
+            return 0
     }
 }
 
