@@ -42,20 +42,17 @@ body {
     border: 2px solid #F8F6F6;
     border-radius: 5px;
     cursor: pointer;
-    font-size: 16px;
+    font-size: 20px;
     width: 100%;
     box-sizing: border-box;
     font-family: "ff-scala-jewel-crystal", sans-serif;
     font-weight: 400;
-    font-size: 25px;
     font-style: normal;
     text-align: center;
 }
 .checkmystatusbutton:hover {
     background-color: #F8F6F6;
     color: #501919;
-    transform:scale(1.2);
-
 }
 .snow-wrapper {
     position: fixed;
